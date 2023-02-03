@@ -1,4 +1,4 @@
-﻿capital = 500
+capital = 500
 
 
 oob = "BRA_1936"
@@ -6,14 +6,17 @@ oob = "BRA_1936"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	hq_1 = 1
+	motorised_infantry = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_recon = 1
 	gw_artillery = 1
-	support_weapons = 1
-	basic_train = 1
 	early_fighter = 1
 	CAS1 = 1
+	support_weapons = 1
+	basic_train = 1
 	
 }
 set_variable = { allies_poster_center_icon_frame = 1 }
@@ -22,8 +25,8 @@ add_ideas = {
 	BRA_coffee_oligarchs
 	BRA_revolution_of_1930
 	neutrality_idea2
-#	PACIFIC_COMMONWEALTH_controls_original
 	father_check
+	BRA_corruption_4
 }
 
 if = {
@@ -83,6 +86,7 @@ recruit_character = BRA_epaminondas_dos_santos
 recruit_character = BRA_ismael_motta_paes
 recruit_character = BRA_lindolfo_collor
 recruit_character = BRA_mark_clark
+recruit_character = BRA_john_smith
 recruit_character = BRA_salgado_filho
 recruit_character = BRA_floriano_peixoto
 recruit_character = BRA_francisco_mello
@@ -111,6 +115,8 @@ set_convoys = 40
 		neutrality = 100
 	}
 }
+
+
 
 if = {
 	limit = {
@@ -202,3 +208,8 @@ if = {
 		}
 	}
 }
+
+# Set as the default values to mitigate the standard corruption
+set_variable = { BRA.weekly_stability = 0.02 }
+set_variable = { BRA.research_speed = 0.2 }
+set_variable = { BRA.political_power = 0.3 }
