@@ -121,6 +121,115 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}
 	
+	spriteType = {
+		name = "GFX_BRA_decision_category_vargas_edicts"
+		texturefile = "gfx/decisions/decision_cat_brazil_vargas_edicts.dds"
+	}
+	spriteType = {
+		name = "GFX_BRA_father_of_the_poor"
+		texturefile = "gfx/interface/goals/BRA_father_of_the_poor.dds"
+	}
+	spriteType = {
+		name = "GFX_BRA_remove_vargas_legacy"
+		texturefile = "gfx/interface/goals/BRA_remove_vargas_legacy.dds"
+	}
+	spriteType = {
+		name = "GFX_Pele"
+		texturefile = "gfx/leaders/BRA/Portrait_Pele.dds"
+	}
+	spriteType = {
+		name = "GFX_ITA_aludose"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_Aludose.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aludose"
+		texturefile = "gfx/interface/ideas/idea_aludose.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ITA_dz1"
+		texturefile = "gfx/leaders/ITA/Portrait_Italy_dz1.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ITA_dz1_small"
+		texturefile = "gfx/interface/ideas/idea_dz1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_corruption_1"
+		texturefile = "gfx/interface/ideas/BRA_corruption_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_corruption_2"
+		texturefile = "gfx/interface/ideas/BRA_corruption_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_corruption_3"
+		texturefile = "gfx/interface/ideas/BRA_corruption_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_corruption_4"
+		texturefile = "gfx/interface/ideas/BRA_corruption_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_corruption_5"
+		texturefile = "gfx/interface/ideas/BRA_corruption_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_corruption_6"
+		texturefile = "gfx/interface/ideas/BRA_corruption_6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_corruption_7"
+		texturefile = "gfx/interface/ideas/BRA_corruption_7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_cafe_com_leite"
+		texturefile = "gfx/interface/ideas/BRA_cafe_com_leite.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_estado_novo"
+		texturefile = "gfx/interface/ideas/BRA_estado_novo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_BEF_special_forces"
+		texturefile = "gfx/interface/ideas/ideas_BRA_BEF_special_forces.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BRA_BEF_tanks"
+		texturefile = "gfx/interface/ideas/ideas_BRA_BEF_tanks.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_bavarian"
+		texturefile = "gfx/interface/traits/trait_bavarian.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_game_master"
+		texturefile = "gfx/interface/traits/trait_unyielding_defender.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_rp_meta_gamer"
+		texturefile = "gfx/interface/traits/trait_panzer_leader.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_murderer_of_the_chinese_innocents"
+		texturefile = "gfx/interface/traits/trait_operative_commando.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_hungary_discardpixel"
+		texturefile = "gfx/leaders/HUN/portrait_hun_discardpixel.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_hungary_discardpixel_small"
+		texturefile = "gfx/interface/ideas/idea_discardpixel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_USA_cash_and_carry_programme"
+		texturefile = "gfx/interface/ideas/idea_usa_cash_and_carry.dds"
+	}
+	spriteType = {
+		name = "GFX_decisions_USA_department_of_defense"
+		texturefile = "gfx/interface/decisions/decision_category_usa_department_of_defense.dds"
+	}
+	
 	SpriteType = {
 		name = "GFX_unit_level"
 		texturefile = "gfx/interface/unit_level_1.dds"
