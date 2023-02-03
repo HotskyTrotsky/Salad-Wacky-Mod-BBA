@@ -257,7 +257,7 @@ bookmarks = {
 			}
 			focuses = {
 				POL_complete_april_constitution
-				POL_niech_zyje_opor
+				POL_baltic_navy
 				POL_the_four_year_plan
 			}
 		}
