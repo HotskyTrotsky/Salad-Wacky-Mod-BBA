@@ -11,8 +11,19 @@ technologies = {
 			pack_artillery_equipment_1
 		}
 		enable_equipment_modules = {
+			#tank_auto_cannon
+			#tank_small_gun_1
+			#tank_anti_air_gun_1
+			#ship_anti_air_1
+			#tank_med_cs_gun_1
+			#secondary_turret_small_cannon
+			#secondary_turret_howitzer
+			#smoke_launchers
+			#extra_ammo_storage
+			
 			tank_auto_cannon
 			tank_small_gun_1
+			tank_small_gun_squeeze
 			tank_anti_air_gun_1
 			ship_anti_air_1
 			tank_med_cs_gun_1
@@ -20,6 +31,9 @@ technologies = {
 			secondary_turret_howitzer
 			smoke_launchers
 			extra_ammo_storage
+			wet_ammo_storage
+			extra_ammo_storage1
+			extra_ammo_storage2
 		}
 		
 		path = {
@@ -72,6 +86,7 @@ technologies = {
 		enable_equipment_modules = {
 			ship_anti_air_2
 			tank_small_gun_2
+			tank_small_gun_squeeze2
 		}
 		path = {
 			leads_to_tech = antiair3
@@ -130,7 +145,8 @@ technologies = {
 			anti_tank_equipment_squeeze_1
 		}
 		enable_equipment_modules = { 
-			
+			tank_small_gun_3
+			tank_med_gun_squeeze
 		}
 		
 		research_cost = 2.0
@@ -170,7 +186,7 @@ technologies = {
 		}
 		enable_equipment_modules = { 
 			ship_anti_air_4
-			tank_small_gun_squeeze
+			#tank_small_gun_squeeze
 			tank_small_gun_3
 		}
 		
@@ -229,7 +245,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_small_gun_squeeze2
+			#tank_small_gun_squeeze2
 		}
 		
 
@@ -270,7 +286,9 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_art_gun_1
-			
+			tank_med_gun_1
+			tank_med_hv_gun_1
+			tank_med_cs_gun_1
 		}		
 		path = {
 			leads_to_tech = artillery3
@@ -331,7 +349,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_med_cs_gun_2						
+			#tank_med_cs_gun_2						
 		}
 		
 		research_cost = 1
@@ -368,7 +386,9 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			
-			tank_med_gun_1
+			#tank_med_gun_1
+			tank_med_cs_gun_2						
+			tank_art_gun_2
 		}
 		
 		research_cost = 2.0
@@ -393,7 +413,7 @@ technologies = {
 			anti_tank_equipment_2
 		}
 		enable_equipment_modules = { 
-			tank_med_hv_gun_1
+			#tank_med_hv_gun_1
 		}
 		
 		research_cost = 2.0
@@ -495,7 +515,10 @@ technologies = {
 			hard_attack = 0.05
 		}
 		enable_equipment_modules = {
-			tank_art_gun_2
+			#tank_art_gun_2
+			tank_med_gun_2
+			tank_med_hv_gun_2
+			
 		}
 		path = {
 			leads_to_tech = artillery4
@@ -543,8 +566,9 @@ technologies = {
 			artillery_equipment_3
 		}
 		enable_equipment_modules = {
-			
-			tank_med_gun_2
+			tank_med_cs_gun_3
+			tank_art_gun_3
+			#tank_med_gun_2
 		}
 		
 		
@@ -570,9 +594,9 @@ technologies = {
 		}
 		
 		enable_equipment_modules = {
-			tank_med_hv_gun_2
-			tank_med_gun_squeeze
-			apcr_round
+			#tank_med_hv_gun_2
+			#tank_med_gun_squeeze
+			#apcr_round
 		}
 		
 		research_cost = 2.0
@@ -627,8 +651,10 @@ technologies = {
 			hard_attack = 0.05
 		}
 		enable_equipment_modules = {
-			tank_med_cs_gun_3
-			tank_art_gun_3
+			#tank_med_cs_gun_3
+			#tank_art_gun_3
+			tank_med_gun_3
+			tank_med_hv_gun_3
 		}
 		path = {
 			leads_to_tech = artillery6
@@ -661,7 +687,7 @@ technologies = {
 			artillery_equipment_4
 		}
 		enable_equipment_modules = {
-			tank_med_gun_3
+			#tank_med_gun_3
 		}
 		
 		research_cost = 2.0
@@ -686,8 +712,8 @@ technologies = {
 			anti_tank_equipment_4
 		}	
 		enable_equipment_modules = {
-			tank_med_gun_squeeze2
-			tank_med_hv_gun_3
+			#tank_med_gun_squeeze2
+			#tank_med_hv_gun_3
 		}
 		research_cost = 2.0
 
@@ -766,7 +792,6 @@ technologies = {
 			heavy_artillery_equipment_2
 		}
 		enable_equipment_modules = {
-			
 		}
 		
 		research_cost = 2.0
@@ -840,6 +865,8 @@ technologies = {
 		tech_air_damage_factor = -0.02
 		
 		enable_equipment_modules = {
+		tank_heavy_cs_gun_1
+		tank_heavy_art_gun_1
 		}
 
 		path = {
@@ -880,7 +907,7 @@ technologies = {
 			heavy_artillery_equipment_3
 		}
 		enable_equipment_modules = {
-			tank_heavy_art_gun_1
+			#tank_heavy_art_gun_1
 			
 		}
 		
@@ -906,7 +933,8 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_heavy_gun_1
-			apcr_round
+			#apcr_round
+			tank_heavy_hv_gun_1
 		}
 		
 		research_cost = 2.0
@@ -930,9 +958,9 @@ technologies = {
 			heavy_anti_air_equipment_2
 		}
 		enable_equipment_modules = {
-			tank_heavy_gun_2
+			#tank_heavy_gun_2
 			tank_heavy_aa_gun_2
-			tank_heavy_hv_gun_1
+			#tank_heavy_hv_gun_1
 		}
 		
 		static_anti_air_damage_factor = 0.1
@@ -987,8 +1015,11 @@ technologies = {
 		}
 
 		enable_equipment_modules = {
-			tank_heavy_cs_gun_1
+			#tank_heavy_cs_gun_1
+			#tank_heavy_art_gun_2
+			
 			tank_heavy_art_gun_2
+			tank_heavy_cs_gun_2
 		}
 		
 				light_armor = {
@@ -1024,7 +1055,8 @@ technologies = {
 			heavy_artillery_equipment_4
 		}
 		enable_equipment_modules = {
-			tank_heavy_cs_gun_2
+			#tank_heavy_cs_gun_2
+			
 		}
 		
 		research_cost = 2.0	
@@ -1048,6 +1080,7 @@ technologies = {
 			heavy_anti_tank_equipment_2
 		}
 		enable_equipment_modules = {
+			tank_heavy_gun_2
 			tank_heavy_hv_gun_2
 		}
 		
