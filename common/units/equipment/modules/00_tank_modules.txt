@@ -873,6 +873,8 @@ tank_light_open_superstructure = { ## TIER S3 ##
 			armor_value = -0.5
 			build_cost_ic = -0.2
 			breakthrough = -0.1
+			hard_attack = 0.05
+			soft_attack = 0.05
 		}
 		build_cost_resources = {
 			steel = 4
@@ -1174,9 +1176,11 @@ tank_medium_turret_4 = { ## TIER 7 ##
 
 		multiply_stats = {
 			
-			armor_value = 0.10
+			armor_value = -0.10
 			breakthrough = -0.1
 			build_cost_ic = -0.2
+			hard_attack = 0.05
+			soft_attack = 0.05
 		}
 		build_cost_resources = {
 			steel = 8
@@ -1370,6 +1374,8 @@ tank_medium_turret_4 = { ## TIER 7 ##
 			armor_value = -0.5
 			breakthrough = -0.1
 			build_cost_ic = -0.1
+			hard_attack = 0.05
+			soft_attack = 0.05
 			
 		}
 		build_cost_resources = {
