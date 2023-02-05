@@ -364,18 +364,18 @@ technologies = {
 		categories = {
 			artillery
 		}
-		light_armor = {
-			hard_attack = 0.05
-			soft_attack = 0.05
-		}	
-		medium_armor = {
-			hard_attack = 0.05
-			soft_attack = 0.05
-		}	
-		heavy_armor = {
-			hard_attack = 0.05
-			soft_attack = 0.05
-		}
+		#light_armor = {
+		#	hard_attack = 0.05
+		#	soft_attack = 0.05
+		#}	
+		#medium_armor = {
+		#	hard_attack = 0.05
+		#	soft_attack = 0.05
+		#}	
+		#heavy_armor = {
+		#	hard_attack = 0.05
+		#	soft_attack = 0.05
+		#}
 	}
 
 	# Artillery 2
@@ -532,18 +532,18 @@ technologies = {
 			leads_to_tech = artillery7
 			research_cost_coeff = 1
 		}
-				light_armor = {
-			hard_attack = 0.05
-			soft_attack = 0.05
-		}	
-		medium_armor = {
-			hard_attack = 0.05
-			soft_attack = 0.05
-		}	
-		heavy_armor = {
-			hard_attack = 0.05
-			soft_attack = 0.05
-		}
+		#		light_armor = {
+		#	hard_attack = 0.05
+		#	soft_attack = 0.05
+		#}	
+		#medium_armor = {
+		#	hard_attack = 0.05
+		#	soft_attack = 0.05
+		#}	
+		#heavy_armor = {
+		#	hard_attack = 0.05
+		#	soft_attack = 0.05
+		#}
 		research_cost = 1
 		
 		start_year = 1940
@@ -1022,18 +1022,18 @@ technologies = {
 			tank_heavy_cs_gun_2
 		}
 		
-				light_armor = {
-			hard_attack = 0.05
-			soft_attack = 0.05
-		}	
-		medium_armor = {
-			hard_attack = 0.05
-			soft_attack = 0.05
-		}	
-		heavy_armor = {
-			hard_attack = 0.05
-			soft_attack = 0.05
-		}
+		#		light_armor = {
+		#	hard_attack = 0.05
+		#	soft_attack = 0.05
+		#}	
+		#medium_armor = {
+		#	hard_attack = 0.05
+		#	soft_attack = 0.05
+		#}	
+		#heavy_armor = {
+		#	hard_attack = 0.05
+	#		soft_attack = 0.05
+	#	}
 		research_cost = 1
 		start_year = 1942
 		
