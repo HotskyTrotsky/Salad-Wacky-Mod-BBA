@@ -820,6 +820,7 @@ technologies = {
 		}
 		enable_equipment_modules = {
 			tank_heavy_aa_gun_1
+			tank_heavy_gun_early
 		}
 		
 		research_cost = 2.0
