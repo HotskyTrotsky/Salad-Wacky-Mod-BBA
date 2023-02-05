@@ -2582,7 +2582,7 @@ tank_med_gun_squeeze = { ###6
 		add_stats = {
 					build_cost_ic = 2
 			reliability = -0.10
-			breakthrough = 5
+			#breakthrough = 5
 	}
 }
 	secondary_turret_hmg = {
@@ -2817,9 +2817,10 @@ tank_med_gun_squeeze = { ###6
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			soft_attack = 11
-			hardness = -0.1
+			soft_attack = 9
+			hardness = -0.15
 			reliability = -0.1
+			breakthrough = 3
 		}
 		
 		multiply_stats = {
