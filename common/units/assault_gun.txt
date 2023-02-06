@@ -10,12 +10,13 @@ sub_units = {
 		
 		type = {
 			armor
-			artillery
+			#artillery
 		}
 		
 		group = armor
 		
 		categories = {
+			category_tanks
 			category_front_line
 			category_all_armor
 			category_army
@@ -35,7 +36,8 @@ sub_units = {
 		supply_consumption_factor = 0.06
 
 		breakthrough = 0.2
-
+		soft_attack = 0.2
+		
 		plains = {
 			attack = 0.05 
 			movement = 0.05
@@ -99,12 +101,13 @@ sub_units = {
 		
 		type = {
 			armor
-			artillery
+			#artillery
 		}
 		
 		group = armor
 		
 		categories = {
+			category_tanks
 			category_front_line
 			category_all_armor
 			category_army
@@ -188,12 +191,13 @@ sub_units = {
 		
 		type = {
 			armor
-			artillery
+			#artillery
 		}
 		
 		group = armor
 		
 		categories = {
+			category_tanks
 			category_front_line
 			category_all_armor
 			category_army
