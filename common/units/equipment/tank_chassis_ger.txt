@@ -34,7 +34,7 @@ equipments = {
 		armor_value = 10
 		hardness = 0.5
 		defense = 4
-		breakthrough = 20
+		breakthrough = 10
 	}
 
 	ger_light_tank_chassis_p2 = {
@@ -71,7 +71,7 @@ equipments = {
 		armor_value = 15
 		hardness = 0.6
 		defense = 5
-		breakthrough = 25
+		breakthrough = 15
 	}
 
 	ger_light_tank_chassis_p35 = {
@@ -108,7 +108,7 @@ equipments = {
 		armor_value = 20
 		hardness = 0.7
 		defense = 5
-		breakthrough = 25
+		breakthrough = 15
 	}
 
 	ger_light_tank_chassis_p38 = {
@@ -146,7 +146,7 @@ equipments = {
 		armor_value = 30
 		hardness = 0.75
 		defense = 6
-		breakthrough = 30
+		breakthrough = 20
 	}
 
 	ger_light_tank_chassis_hetzer = {
@@ -190,7 +190,7 @@ equipments = {
 		armor_value = 80
 		hardness = 0.8
 		defense = 6
-		breakthrough = 40
+		breakthrough = 35
 	}
 	
 	ger_light_tank_chassis_luchs = {
@@ -231,7 +231,7 @@ equipments = {
 		armor_value = 30
 		hardness = 0.65
 		defense = 6
-		breakthrough = 35
+		breakthrough = 25
 	}
 
    # Medium Tanks
@@ -276,7 +276,7 @@ equipments = {
 		armor_value = 35
 		hardness = 0.75
 		defense = 6
-		breakthrough = 40
+		breakthrough = 25
 	}
 
 	ger_medium_tank_chassis_p3 = {
@@ -315,7 +315,7 @@ equipments = {
 		armor_value = 30
 		hardness = 0.7
 		defense = 6
-		breakthrough = 35
+		breakthrough = 15
 	}
 
 	# ger_medium_tank_chassis_p4_2 = {
@@ -433,7 +433,7 @@ equipments = {
 		armor_value = 80
 		hardness = 0.8
 		defense = 8
-		breakthrough = 50
+		breakthrough = 40
 	}
 	
 	ger_medium_tank_chassis_e50 = {
@@ -479,7 +479,7 @@ equipments = {
 		armor_value = 100
 		hardness = 0.85
 		defense = 8
-		breakthrough = 60
+		breakthrough = 55
 	}
 	
    # Heavy Tanks	
@@ -517,7 +517,7 @@ equipments = {
 		armor_value = 15
 		hardness = 0.5
 		defense = 6
-		breakthrough = 50
+		breakthrough = 25
 	}
 
 	# Tiger
@@ -557,7 +557,7 @@ equipments = {
 		armor_value = 85
 		hardness = 0.8
 		defense = 8
-		breakthrough = 70
+		breakthrough = 40
 	}
 
 	# Tiger 2
@@ -599,7 +599,7 @@ equipments = {
 		armor_value = 100
 		hardness = 0.85
 		defense = 10
-		breakthrough = 80
+		breakthrough = 60
 	}
 
 	# Lowe
