@@ -118,7 +118,7 @@ NDefines.NBuildings.RADAR_RANGE_MAX = 250				-- Range is interpolated between bu
 NDefines.NBuildings.BASE_FACTORY_REPAIR_FACTOR = 2.5	-- Factory speed modifier when repairing.
 NDefines.NBuildings.SUPPLY_PORT_LEVEL_THROUGHPUT = 4   -- supply throughput per level of naval base
 NDefines.NBuildings.MAX_SHARED_SLOTS = 40				-- Max slots shared by factories
-NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.1 -- multiplactive resource bonus for each level of (non damaged) infrastructure
+NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.045 -- multiplactive resource bonus for each level of (non damaged) infrastructure
 NDefines.NBuildings.SUPPLY_ROUTE_RESOURCE_BONUS = 0.05   -- multiplicative resource bonus for having a railway/naval connection to the capital
 
 NDefines.NMilitary.ZERO_ORG_MOVEMENT_MODIFIER = -0.5		-- speed impact at 0 org.
