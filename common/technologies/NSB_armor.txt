@@ -81,6 +81,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -108,6 +110,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -131,6 +135,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -168,6 +174,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -197,6 +205,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -221,6 +231,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -247,6 +259,8 @@ technologies = {
 		}
 	
 		categories = {
+			generic
+
 			armor
 		}
 	}
@@ -266,6 +280,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 		}
 	}
@@ -369,6 +385,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -396,6 +414,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -424,6 +444,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -448,6 +470,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -479,6 +503,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -506,6 +532,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -533,6 +561,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -556,6 +586,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -592,6 +624,7 @@ technologies = {
 
 		categories = {
 			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -616,6 +649,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -644,6 +679,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -664,6 +701,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -721,6 +760,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -752,6 +793,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -771,6 +814,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -804,6 +849,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -833,6 +880,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -861,6 +910,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -884,6 +935,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -1003,6 +1056,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -1030,6 +1085,7 @@ technologies = {
 
 		categories = {
 			generic
+
 			armor
 			cat_light_armor
 		}
@@ -1054,6 +1110,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -1120,6 +1178,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -1145,6 +1205,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -1170,6 +1232,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -1239,6 +1303,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -1265,6 +1331,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -1282,6 +1350,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -1313,6 +1383,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -1340,6 +1412,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -1367,6 +1441,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -1390,6 +1466,8 @@ technologies = {
 		}
 
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}

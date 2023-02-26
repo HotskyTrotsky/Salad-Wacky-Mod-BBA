@@ -344,6 +344,23 @@ leader_traits = {
 			factor = 0
 		}
 	}
+	
+	trait_soppi = { 
+		type = land
+		trait_type = personality_trait
+		
+		trait_xp_factor = {
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+
+		attack_skill_factor = 2
+
+	}
+
+
 
 	harsh_leader = { 
 		type = land

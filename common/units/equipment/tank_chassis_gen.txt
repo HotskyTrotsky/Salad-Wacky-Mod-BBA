@@ -29,7 +29,7 @@ equipments = {
 			tank_nsb_med_engine_1_upgrade
 			tank_nsb_med_armor_1_upgrade
 		}
-		maximum_speed = 5,5
+		maximum_speed = 5.5
 		build_cost_ic = 8
 		reliability = 0.7
 		armor_value = 15
@@ -130,9 +130,9 @@ equipments = {
 			turret_type_slot = 	{	
 				required = yes	
 				allowed_module_categories = {
-					tank_light_turret_type_1
-					tank_light_turret_type_2
-					tank_light_turret_type_3
+					#tank_light_turret_type_1
+					#tank_light_turret_type_2
+					#tank_light_turret_type_3
 					tank_medium_turret_type_1
 					tank_medium_turret_type_2
 					tank_medium_turret_type_5
@@ -170,9 +170,9 @@ equipments = {
 			turret_type_slot = 	{	
 				required = yes	
 				allowed_module_categories = {
-					tank_light_turret_type_1
-					tank_light_turret_type_2
-					tank_light_turret_type_3
+					#tank_light_turret_type_1
+					#tank_light_turret_type_2
+					#tank_light_turret_type_3
 					tank_medium_turret_type_1
 					tank_medium_turret_type_2
 					tank_medium_turret_type_3
@@ -213,9 +213,9 @@ equipments = {
 			turret_type_slot = 	{	
 				required = yes	
 				allowed_module_categories = {
-					tank_light_turret_type_1
-					tank_light_turret_type_2
-					tank_light_turret_type_3
+					#tank_light_turret_type_1
+					#tank_light_turret_type_2
+					#tank_light_turret_type_3
 					tank_medium_turret_type_1
 					tank_medium_turret_type_2
 					tank_medium_turret_type_3
@@ -226,7 +226,7 @@ equipments = {
 					tank_medium_turret_type_8
 				}
 			}
-			suspension_type_slot = inherit
+			#suspension_type_slot = inherit
 			armor_type_slot = inherit
 			engine_type_slot = inherit
 			special_type_slot_1 = inherit

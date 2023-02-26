@@ -27,7 +27,7 @@ equipments = {
 			tank_nsb_med_engine_1_upgrade
 			tank_nsb_med_armor_1_upgrade
 		}
-		maximum_speed = 5,5
+		maximum_speed = 5.5
 		build_cost_ic = 8
 		reliability = 0.7
 		armor_value = 15
@@ -180,7 +180,7 @@ equipments = {
 			tank_nsb_med_engine_1_upgrade
 			tank_nsb_med_armor_1_upgrade
 		}
-		mmaximum_speed = 6
+		maximum_speed = 6
 		build_cost_ic = 8
 		reliability = 0.9
 		armor_value = 15
@@ -200,11 +200,11 @@ equipments = {
 			turret_type_slot = 	{		
 				required = yes
 				allowed_module_categories = {
-					tank_light_turret_type_1
-					tank_light_turret_type_2
-					tank_light_turret_type_3
+					#tank_light_turret_type_1
+					#tank_light_turret_type_2
+					#tank_light_turret_type_3
 					tank_medium_turret_type_1
-					tank_medium_turret_type_2
+					#tank_medium_turret_type_2
 					tank_medium_turret_type_5
 					tank_medium_turret_type_6
 					tank_medium_turret_type_7
@@ -242,9 +242,9 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 				tank_light_turret_type_1
-					tank_light_turret_type_1
-					tank_light_turret_type_2
-					tank_light_turret_type_3
+					#tank_light_turret_type_1
+					#tank_light_turret_type_2
+					#tank_light_turret_type_3
 					tank_medium_turret_type_1
 					tank_medium_turret_type_2
 					tank_medium_turret_type_5
@@ -283,9 +283,9 @@ equipments = {
 			turret_type_slot = 	{	
 				required = yes	
 				allowed_module_categories = {
-					tank_light_turret_type_1
-					tank_light_turret_type_2
-					tank_light_turret_type_3
+					#tank_light_turret_type_1
+					#tank_light_turret_type_2
+					#tank_light_turret_type_3
 					tank_medium_turret_type_1
 					tank_medium_turret_type_2
 					tank_medium_turret_type_3
@@ -326,9 +326,9 @@ equipments = {
 			turret_type_slot = 	{	
 				required = yes	
 				allowed_module_categories = {
-					tank_light_turret_type_1
-					tank_light_turret_type_2
-					tank_light_turret_type_3
+					#tank_light_turret_type_1
+					#tank_light_turret_type_2
+					#tank_light_turret_type_3
 					tank_medium_turret_type_1
 					tank_medium_turret_type_2
 					tank_medium_turret_type_3

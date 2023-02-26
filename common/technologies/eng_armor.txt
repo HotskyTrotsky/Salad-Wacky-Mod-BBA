@@ -49,6 +49,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -80,6 +82,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -106,6 +110,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -137,6 +143,7 @@ technologies = {
 	
 		categories = {
 			generic
+
 			armor
 		}
 	}
@@ -156,6 +163,7 @@ technologies = {
 
 		categories = {
 			generic
+
 			armor
 		}
 	}
@@ -215,6 +223,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -255,6 +265,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -278,6 +290,8 @@ technologies = {
 	# 	}
 		
 	# 	categories = {
+	#		generic
+
 	# 		armor
 	# 		cat_medium_armor
 	# 	}
@@ -315,6 +329,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -352,6 +368,7 @@ technologies = {
 #		}
 #		
 #		categories = {
+
 #			generic
 #			armor
 #			cat_medium_armor
@@ -391,6 +408,8 @@ technologies = {
 		#}
 		
 		#categories = {
+		#	generic
+
 		#	armor
 		#	cat_medium_armor
 		#}
@@ -404,10 +423,12 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = eng_armour_folder
-			position = { x = 2 y = 12 }
+			position = { x = 0 y = 12 }
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -442,6 +463,8 @@ technologies = {
 	#	}
 		
 	#	categories = {
+	#		generic
+
 	#		armor
 	#		cat_heavy_armor
 	#	}
@@ -530,6 +553,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -594,6 +619,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -622,6 +649,8 @@ technologies = {
 #		}
 #		
 #		categories = {
+#			generic
+
 #			armor
 #			cat_heavy_armor
 #		}
@@ -659,6 +688,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -694,6 +725,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -728,6 +761,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -750,6 +785,8 @@ technologies = {
 #		}
 		
 #		categories = {
+#			generic
+
 #			armor
 #			cat_heavy_armor
 #		}
@@ -777,6 +814,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -786,96 +825,102 @@ technologies = {
 		}
 	}
 
-	ast_medium_tank_1 = {
+	#ast_medium_tank_1 = {
 	
-		allow_branch = {
-			OR = {
-				tag = AST
-				tag = NZL
-			}
-		}
+	#	allow_branch = {
+	#		OR = {
+	#			tag = AST
+	#			tag = NZL
+	#		}
+	#	}
 
-		enable_equipments = {
-			eng_medium_tank_chassis_ac1
-		}
+	#	enable_equipments = {
+	#		eng_medium_tank_chassis_ac1
+	#	}
 
-		enable_equipment_modules = {
-			tank_medium_turret_2
-		}
+	#	enable_equipment_modules = {
+	#		tank_medium_turret_2
+	#	}
 	
-		path = {
-			leads_to_tech = ast_medium_tank_2
-			research_cost_coeff = 1
-		}
+	#	path = {
+	#		leads_to_tech = ast_medium_tank_2
+	#		research_cost_coeff = 1
+	#	}
 		
-		research_cost = 2
-		start_year = 1941
-		folder = {
-			name = eng_armour_folder
-			position = { x = 2 y = 10 }
-		}
+	#	research_cost = 2
+	#	start_year = 1941
+	#	folder = {
+	#		name = eng_armour_folder
+	#		position = { x = 2 y = 10 }
+	#	}
 		
-		categories = {
-			armor
-			cat_medium_armor
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	#	categories = {
+	#		generic
 
-	ast_medium_tank_2 = {
+	#		armor
+	#		cat_medium_armor
+	#	}
+		
+	#	ai_will_do = {
+	#		factor = 0
+	#	}
+	#}
 
-		enable_equipments = {
-			eng_medium_tank_chassis_ac3
-		}
+	#ast_medium_tank_2 = {
+
+	#	enable_equipments = {
+	#		eng_medium_tank_chassis_ac3
+	#	}
 		
 	
-		path = {
-			leads_to_tech = ast_medium_tank_3
-			research_cost_coeff = 1
-		}
+	#	path = {
+	#		leads_to_tech = ast_medium_tank_3
+	#		research_cost_coeff = 1
+	#	}
 		
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = eng_armour_folder
-			position = { x = 2 y = 12 }
-		}
+	#	research_cost = 2
+	#	start_year = 1942
+	#	folder = {
+	#		name = eng_armour_folder
+	#		position = { x = 2 y = 12 }
+	#	}
 		
-		categories = {
-			armor
-			cat_medium_armor
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	#	categories = {
+	#		generic
 
-	ast_medium_tank_3 = {
+	#		armor
+	#		cat_medium_armor
+	#	}
+		
+	#	ai_will_do = {
+	#		factor = 0
+	#	}
+	#}
 
-		enable_equipment_modules = {
-			tank_medium_turret_3
-		}
+	#ast_medium_tank_3 = {
+
+	#	enable_equipment_modules = {
+	#		tank_medium_turret_3
+	#	}
 		
-		research_cost = 1
-		start_year = 1943
-		folder = {
-			name = eng_armour_folder
-			position = { x = 2 y = 14 }
-		}
+	#	research_cost = 1
+	#	start_year = 1943
+	#	folder = {
+	#		name = eng_armour_folder
+	#		position = { x = 2 y = 14 }
+	#	}
+	#	
+	#	categories = {
+	#		generic
+#
+	#		armor
+	#		cat_medium_armor
+	#	}
 		
-		categories = {
-			armor
-			cat_medium_armor
-		}
-		
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	#	ai_will_do = {
+	#		factor = 0
+	#	}
+	#}
 
 	can_medium_tank_1 = {
 	
@@ -895,10 +940,12 @@ technologies = {
 		start_year = 1941
 		folder = {
 			name = eng_armour_folder
-			position = { x = 2 y = 10 }
+			position = { x = -3 y = 12 }
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}

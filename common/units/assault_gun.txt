@@ -56,9 +56,12 @@ sub_units = {
 			movement = -0.05
 		}
 		mountain = 	{
-		    attack = -0.2
+		
+		#### I am reducing the amount by 50% than that in barbarossa patch because 1: it was not voted on, 2: this made tanks impossible to push anything on a mountain, 3: that was not the intention of this it was to make it harder not impossible. This will go for all of them since all was done was set it to 0.6.
+		
+		    attack = -0.4
 			movement = -0.3
-			defence = -0.1
+			defence = -0.4
 		}
 		jungle = {
 		    attack = -0.15
@@ -146,9 +149,9 @@ sub_units = {
 			defence = -0.05
 		}
 		mountain = 	{
-		    attack = -0.3
+		    attack = -0.5
 			movement = -0.4
-			defence = -0.2
+			defence = -0.5
 		}
 		jungle = {
 		    attack = -0.25
@@ -237,9 +240,9 @@ sub_units = {
 			defence = -0.1
 		}
 		mountain = 	{
-		    attack = -0.4
+		    attack = -0.5
 			movement = -0.5
-			defence = -0.3
+			defence = -0.5
 		}
 		jungle = {
 		    attack = -0.4

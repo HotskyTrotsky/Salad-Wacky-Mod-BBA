@@ -140,6 +140,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/open_superstructure.dds"
 	}
 	spriteType = {
+		name = "GFX_EMI_tank_medium_superstructure_E50"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/fixed_superstructure.dds"
+	}
+	spriteType = {
 		name = "GFX_EMI_tank_medium_turret_type_8"
 		textureFile = "gfx/interface/equipmentdesigner/tanks/modules/fixed_superstructure.dds"
 	}

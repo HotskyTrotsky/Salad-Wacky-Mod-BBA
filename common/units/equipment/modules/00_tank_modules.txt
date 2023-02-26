@@ -189,7 +189,6 @@ tank_cast_armor = {
 		multiply_stats = {
 		}
 		build_cost_resources = {
-			chromium = 5
 			steel = 5
 		}
 		dismantle_cost_ic = 1
@@ -584,9 +583,9 @@ tank_cast_armor = {
 		category = tank_light_turret_type_1
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
-		forbid_equipment_type = anti_air
-		forbid_equipment_type = anti_tank
-		forbid_equipment_type = artillery
+			anti_air
+			anti_tank
+			artillery
 		}
 		
 		allowed_module_categories = {
@@ -615,9 +614,9 @@ tank_cast_armor = {
 		category = tank_light_turret_type_2
 		sfx = sfx_ui_sd_module_turret
 		forbid_equipment_type = {
-		forbid_equipment_type = anti_air
-		forbid_equipment_type = anti_tank
-		forbid_equipment_type = artillery
+			anti_air
+			anti_tank
+			artillery
 		}
 
 		allowed_module_categories = {
@@ -740,9 +739,10 @@ tank_cast_armor = {
 		}
 		build_cost_resources = {
 			steel = 4
+		}
 		dismantle_cost_ic = 1
+	
 	}
-
 	# Fixed Light Casemate
 #	tank_light_superstructure = { ## TIER 5 ##
 	#	abbreviation = "lfs"
@@ -767,18 +767,18 @@ tank_cast_armor = {
 	#	add_stats = {
 	#		build_cost_ic = 2
 	#	}
-#
+
 	#	multiply_stats = {
 	#		breakthrough = -0.15
 	#		armor_value = 0.05
 	#	}
 	#	build_cost_resources = {
-			steel = 5
+	#		steel = 5
 	#	}
 	#	dismantle_cost_ic = 2
 	#}
 
-tank_light_superstructure = { ## TIER S2 ##
+		tank_light_superstructure = { ## TIER S2 ##
 		abbreviation = "lfs"
 		category = tank_light_turret_type_6
 		sfx = sfx_ui_sd_module_turret
@@ -1276,6 +1276,7 @@ tank_medium_turret_4 = { ## TIER 7 ##
 
 		multiply_stats = {
 			maximum_speed = -0.05
+			}
 		build_cost_resources = {
 			steel = 14
 		}
@@ -1901,7 +1902,7 @@ tank_med_gun_squeeze = { ###6
 		forbid_equipment_type_exact_match = armor
 
 		add_stats = {
-			soft_attack = 60
+			soft_attack = 55
 			build_cost_ic = 6
 		}
 		multiply_stats = {
@@ -1924,7 +1925,7 @@ tank_med_gun_squeeze = { ###6
 		parent = tank_art_gun_1
 
 		add_stats = {
-			soft_attack = 70
+			soft_attack = 65
 			build_cost_ic = 8
 		}
 		multiply_stats = {
@@ -1932,8 +1933,8 @@ tank_med_gun_squeeze = { ###6
 		}
 		
 		build_cost_resources = {
-			steel = 10
-			tungsten = 14
+			steel = 9
+			tungsten = 12
 		}
 		dismantle_cost_ic = 2
 	}
@@ -2505,7 +2506,7 @@ tank_med_gun_squeeze = { ###6
 
 	tank_rocket_launcher = { ###5
 		abbreviation = "rk1"
-		category = tank_armament_tier_4
+		category = tank_armament_tier_5
 		sfx = sfx_ui_sd_module_turret
 		allow_equipment_type = artillery
 		forbid_equipment_type_exact_match = armor
@@ -2513,14 +2514,14 @@ tank_med_gun_squeeze = { ###6
 
 		add_stats = {
 			soft_attack = 70
-			build_cost_ic = 9
+			build_cost_ic = 10
 		}
 		multiply_stats = {
 			
 		}
 		build_cost_resources = {
-			steel = 12
-			tungsten = 15 
+			steel = 9
+			tungsten = 9 
 		}
 		dismantle_cost_ic = 3
 	}
@@ -2815,10 +2816,12 @@ tank_med_gun_squeeze = { ###6
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			soft_attack = 10
-			breakthrough = 10
-			reliability = -0.05
+			soft_attack = 11
+			breakthrough = 5
+			reliability = -0.15
+			hardness = -0.13
 			build_cost_ic = 1
+			supply_consumption_factor = 0.15
 		}
 		
 		multiply_stats = {
@@ -2848,10 +2851,11 @@ tank_med_gun_squeeze = { ###6
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
-			soft_attack = 9
-			hardness = -0.15
+			soft_attack = 11
+			hardness = -0.1
 			reliability = -0.1
-			breakthrough = 3
+			#breakthrough = 3
+			build_cost_ic = 2
 		}
 		
 		multiply_stats = {

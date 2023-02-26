@@ -61,13 +61,15 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 2
-		start_year = 1939
+		start_year = 1935
 		folder = {
 			name = usa_armour_folder
-			position = { x = -7 y = 6 }
+			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -86,6 +88,7 @@ technologies = {
 		
 		categories = {
 			generic
+
 			armor
 			cat_light_armor
 		}
@@ -114,6 +117,7 @@ technologies = {
 #		}
 #		
 #		categories = {
+
 #			generic
 #			armor
 #			cat_light_armor
@@ -147,6 +151,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -181,6 +187,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -202,10 +210,12 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = usa_armour_folder
-			position = { x = -7 y = 14 }
+			position = { x = -5 y = 14 }
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -237,6 +247,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -260,10 +272,10 @@ technologies = {
 			armor_skirts
 		}
 	
-		path = {
-			leads_to_tech = usa_medium_tank_2
-			research_cost_coeff = 1
-		}
+		#path = {
+			#leads_to_tech = usa_medium_tank_2
+		#	research_cost_coeff = 1
+		#}
 		path = {
 			#leads_to_tech = usa_heavy_tank_1
 			leads_to_tech = usa_armor_tech_2
@@ -279,6 +291,7 @@ technologies = {
 		
 		categories = {
 			generic
+
 			armor
 		}
 		
@@ -301,6 +314,7 @@ usa_armor_tech_2 = {
 
 		categories = {
 			generic
+
 			armor
 		}
 	}
@@ -334,6 +348,7 @@ usa_armor_tech_2 = {
 		
 		categories = {
 			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -378,6 +393,7 @@ usa_armor_tech_2 = {
 		
 		categories = {
 			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -413,6 +429,7 @@ usa_armor_tech_2 = {
 		
 		categories = {
 			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -438,6 +455,8 @@ usa_armor_tech_2 = {
 	#	}
 		
 	#	categories = {
+	#		generic
+
 	#		armor
 	#		cat_medium_armor
 	#	}
@@ -470,6 +489,7 @@ usa_armor_tech_2 = {
 		
 		categories = {
 			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -499,6 +519,7 @@ usa_armor_tech_2 = {
 #		}
 #		
 #		categories = {
+
 #			generic
 #			armor
 #			cat_medium_armor
@@ -539,6 +560,7 @@ usa_armor_tech_2 = {
 		
 		categories = {
 			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -570,6 +592,7 @@ usa_armor_tech_2 = {
 		
 		categories = {
 			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -596,6 +619,7 @@ usa_armor_tech_2 = {
 		
 		categories = {
 			generic
+
 			armor
 			cat_heavy_armor
 		}

@@ -11,7 +11,7 @@ if = {
 
 add_ideas = {
 	DEN_surrender
-	stupid_ai
+	#stupid_ai
 }
 
 set_research_slots = 0

@@ -62,6 +62,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -92,6 +94,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -119,6 +123,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -152,6 +158,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -182,6 +190,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -211,6 +221,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_light_armor
 		}
@@ -250,6 +262,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -278,6 +292,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -317,6 +333,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -345,6 +363,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -378,6 +398,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -406,6 +428,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_medium_armor
 		}
@@ -440,6 +464,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -477,6 +503,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -493,7 +521,7 @@ technologies = {
 			ger_heavy_tank_chassis_p6_b
 		}
 		enable_equipment_modules = {
-			tank_super_heavy_turret
+			tank_heavy_turret_2
 		}
 		
 		path = {
@@ -509,6 +537,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -541,6 +571,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}
@@ -568,6 +600,8 @@ technologies = {
 		}
 		
 		categories = {
+			generic
+
 			armor
 			cat_heavy_armor
 		}

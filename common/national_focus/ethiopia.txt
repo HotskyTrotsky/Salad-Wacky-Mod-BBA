@@ -5242,10 +5242,10 @@ focus_tree = {
 						engine_type_slot = tank_gasoline_engine
 						special_type_slot_1 = tank_radio_1
 					}
-					upgrades = {
-						tank_nsb_engine_upgrade = 5
-						tank_nsb_armor_upgrade = 1
-					}
+					#upgrades = {
+					#	tank_nsb_engine_upgrade = 5
+					#	tank_nsb_armor_upgrade = 1
+					#}
 					icon = "GFX_GER_basic_light_tank_medium"
 					obsolete = yes
 				}

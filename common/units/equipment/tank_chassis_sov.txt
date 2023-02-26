@@ -216,7 +216,7 @@ equipments = {
 					tank_light_turret_type_zis
 				}
 			}
-			suspension_type_slot = inherit
+			#suspension_type_slot = inherit
 			engine_type_slot = {
 				required = yes
 				allowed_module_categories = {
@@ -264,7 +264,6 @@ equipments = {
 					tank_secondary_turret
 				}
 			}
-			special_type_slot_3 = inherit
 		}
 		upgrades = {
 			tank_nsb_med_engine_1_upgrade
@@ -290,9 +289,9 @@ equipments = {
 			turret_type_slot = 	{	
 				required = yes	
 				allowed_module_categories = {
-					tank_light_turret_type_1
-					tank_light_turret_type_2
-					tank_light_turret_type_3
+					#tank_light_turret_type_1
+					#tank_light_turret_type_2
+					#tank_light_turret_type_3
 					tank_medium_turret_type_1
 					tank_medium_turret_type_2
 					tank_medium_turret_type_3
@@ -333,9 +332,9 @@ equipments = {
 			turret_type_slot = 	{	
 				required = yes	
 				allowed_module_categories = {
-					tank_light_turret_type_1
+					#tank_light_turret_type_1
 					tank_light_turret_type_2
-					tank_light_turret_type_3
+					#tank_light_turret_type_3
 					tank_medium_turret_type_1
 					tank_medium_turret_type_2
 					tank_medium_turret_type_3
@@ -406,7 +405,6 @@ equipments = {
 					tank_secondary_turret
 				}
 			}
-			special_type_slot_4 = inherit
 		}
 		maximum_speed = 4
 		build_cost_ic = 25
